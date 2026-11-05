@@ -1,0 +1,10 @@
+name: CI
+
+on: push
+
+jobs:
+  say_hi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hi
+        run: echo "Hello from the docs-pipeline demo CI!"
